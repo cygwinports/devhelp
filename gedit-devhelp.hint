@@ -1,0 +1,8 @@
+category: Doc Gnome Editors
+requires: devhelp gedit python python-gtk2.0
+external-source: devhelp
+sdesc: "GEdit API documentation lookup plugin"
+ldesc: "Devhelp is an API documentation browser for GNOME 2. It works 
+natively with gtk-doc (the API reference framework developed for GTK+ 
+and used throughout GNOME for API documentation). If you use gtk-doc 
+with your project, you can use Devhelp to browse the documentation."

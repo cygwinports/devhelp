@@ -1,0 +1,8 @@
+category: Doc Gnome
+requires: libdevhelp1_1 libgconf2-devel libglib2.0-devel libgtk2.0-devel libpango1.0-devel libwebkit1.0-devel libwnck1-devel zlib-devel
+external-source: devhelp
+sdesc: "GNOME API documentation browser library (runtime)"
+ldesc: "Devhelp is an API documentation browser for GNOME 2. It works 
+natively with gtk-doc (the API reference framework developed for GTK+ 
+and used throughout GNOME for API documentation). If you use gtk-doc 
+with your project, you can use Devhelp to browse the documentation."
