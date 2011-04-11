@@ -2,10 +2,10 @@ inherit gnome2
 
 DESCRIPTION="GNOME API documentation browser"
 
-PKG_NAMES="${PN} ${PN}-common libdevhelp2_1 libdevhelp2-devel gedit-${PN}"
+PKG_NAMES="${PN} ${PN}-common libdevhelp3_0 libdevhelp3-devel gedit-${PN}"
 devhelp_CONTENTS="etc/ usr/bin/devhelp.exe usr/share/applications/ usr/share/doc/
                   usr/share/icons/"
 devhelp_common_CONTENTS="usr/share/devhelp/ usr/share/locale/"
-libdevhelp2_1_CONTENTS="usr/bin/cygdevhelp-2-1.dll"
-libdevhelp2_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
-gedit_devhelp_CONTENTS="usr/lib/gedit-2/"
+libdevhelp3_0_CONTENTS="usr/bin/cygdevhelp-3-0.dll"
+libdevhelp3_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
+gedit_devhelp_CONTENTS="usr/lib/gedit/"
