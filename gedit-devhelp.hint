@@ -1,5 +1,5 @@
 category: Doc Gnome Editors
-requires: devhelp gedit python python-gi gobject-introspection-GLib2.0 gobject-introspection-Gtk3.0
+requires: devhelp gedit python python-gi girepository-GLib2.0 girepository-Gtk3.0
 external-source: devhelp
 sdesc: "GEdit API documentation lookup plugin"
 ldesc: "Devhelp is an API documentation browser for GNOME 2. It works 

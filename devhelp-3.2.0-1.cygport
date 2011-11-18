@@ -2,6 +2,13 @@ inherit gnome2
 
 DESCRIPTION="GNOME API documentation browser"
 
+PATCH_URI="3.2.0-gdk-targets.patch"
+
+DEPEND="gnome-common
+	pkgconfig(gconf-2.0)
+	pkgconfig(webkitgtk-3.0)
+	pkgconfig(zlib)"
+
 PKG_NAMES="${PN} ${PN}-common libdevhelp3_0 libdevhelp3-devel gedit-${PN}"
 devhelp_CONTENTS="etc/ usr/bin/devhelp.exe usr/share/applications/ usr/share/doc/
                   usr/share/icons/"
