@@ -1,0 +1,11 @@
+--- origsrc/devhelp-3.4.1/configure.ac	2012-04-16 06:34:42.000000000 -0500
++++ src/devhelp-3.4.1/configure.ac	2012-05-06 03:28:29.990117400 -0500
+@@ -67,7 +67,7 @@ if test "x$with_webkit2" != xno; then
+    AC_DEFINE([HAVE_WEBKIT2],[1],[Define if building with WebKit2])
+ else
+    WEBKITGTK_PC_NAME=webkitgtk-3.0
+-   WEBKITGTK_REQUIRED_VERSION=1.6.0
++   WEBKITGTK_REQUIRED_VERSION=1.3.12
+ fi
+ AM_CONDITIONAL(WITH_WEBKIT2, test "x$with_webkit2" != xno)
+ 
