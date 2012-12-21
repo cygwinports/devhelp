@@ -1,0 +1,26 @@
+inherit gnome2 python
+
+NAME="devhelp"
+VERSION=3.6.1
+RELEASE=1
+CATEGORY="Doc GNOME"
+SUMMARY="GNOME API documentation browser"
+DESCRIPTION="Devhelp is an API documentation browser for GNOME 2. It works
+natively with gtk-doc (the API reference framework developed for GTK+ and
+used throughout GNOME for API documentation). If you use gtk-doc with your
+project, you can use Devhelp to browse the documentation."
+
+DEPEND="gnome-common
+	pkgconfig(gconf-2.0)
+	pkgconfig(webkitgtk-3.0)
+	pkgconfig(zlib)"
+
+PKG_NAMES="${PN} ${PN}-common libdevhelp3_1 libdevhelp3-devel gedit-${PN}"
+devhelp_CONTENTS="etc/ usr/bin/devhelp.exe usr/share/applications/ usr/share/doc/
+                  usr/share/icons/"
+devhelp_common_CONTENTS="usr/share/devhelp/ usr/share/locale/"
+libdevhelp3_1_REQUIRES="devhelp-common"
+libdevhelp3_1_CONTENTS="usr/bin/cygdevhelp-3-1.dll"
+libdevhelp3_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
+gedit_devhelp_REQUIRES="devhelp gedit girepository-Gtk3.0"
+gedit_devhelp_CONTENTS="usr/lib/gedit/"
