@@ -1,0 +1,20 @@
+--- origsrc/devhelp-3.8.2/configure.ac	2013-05-15 06:05:20.000000000 -0500
++++ src/devhelp-3.8.2/configure.ac	2013-08-08 02:42:15.875349700 -0500
+@@ -22,7 +22,7 @@ AC_CONFIG_SRCDIR(src/dh-main.c)
+ AC_CONFIG_MACRO_DIR([m4])
+ AC_CONFIG_AUX_DIR([build-aux])
+ 
+-AM_INIT_AUTOMAKE([1.11 -Wall foreign no-define tar-ustar no-dist-gzip dist-xz])
++AM_INIT_AUTOMAKE([1.13 -Wall foreign no-define tar-ustar no-dist-gzip dist-xz])
+ 
+ # Support silent build rules, requires at least automake-1.11. Disable
+ # by either passing --disable-silent-rules to configure or passing V=1
+@@ -105,7 +105,7 @@ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GET
+ 
+ AC_PATH_PROG(GLIB_MKENUMS, glib-mkenums)
+ 
+-AM_PATH_PYTHON([2.3],[],[no])
++AM_PATH_PYTHON([3.2],[],[no])
+ 
+ LIBGD_INIT([
+   header-bar

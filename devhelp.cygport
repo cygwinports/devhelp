@@ -1,4 +1,4 @@
-inherit gnome2 python
+inherit gnome2 python3
 
 NAME="devhelp"
 VERSION=3.8.2
@@ -9,6 +9,8 @@ DESCRIPTION="Devhelp is an API documentation browser for GNOME 2. It works
 natively with gtk-doc (the API reference framework developed for GTK+ and
 used throughout GNOME for API documentation). If you use gtk-doc with your
 project, you can use Devhelp to browse the documentation."
+
+PATCH_URI="3.8.2-python3.patch"
 
 DEPEND="gnome-common
 	pkgconfig(gconf-2.0)
