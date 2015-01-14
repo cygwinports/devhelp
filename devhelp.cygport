@@ -12,6 +12,7 @@ project, you can use Devhelp to browse the documentation."
 
 PATCH_URI="
 	https://git.gnome.org/browse/devhelp/patch/?id=631b8cc#/devhelp-gedit-3-12.patch
+	3.8.2-glib-gettext.patch
 	3.8.2-python3.patch
 "
 

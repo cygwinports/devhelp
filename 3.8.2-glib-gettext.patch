@@ -1,0 +1,12 @@
+--- origsrc/devhelp-3.8.2/configure.ac	2015-01-13 19:09:24.667359900 -0600
++++ src/devhelp-3.8.2/configure.ac	2015-01-13 19:12:05.293256800 -0600
+@@ -96,9 +96,6 @@ AC_SUBST(ZLIB_LIBS)
+ # i18n stuff
+ IT_PROG_INTLTOOL([0.40.0])
+ 
+-AM_GNU_GETTEXT_VERSION([0.17])
+-AM_GNU_GETTEXT([external])
+-
+ GETTEXT_PACKAGE=devhelp
+ AC_SUBST(GETTEXT_PACKAGE)
+ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Package name for gettext])
