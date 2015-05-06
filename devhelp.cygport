@@ -2,7 +2,7 @@ inherit gnome2 python3
 
 NAME="devhelp"
 VERSION=3.8.2
-RELEASE=2
+RELEASE=3
 CATEGORY="Doc GNOME"
 SUMMARY="GNOME API documentation browser"
 DESCRIPTION="Devhelp is an API documentation browser for GNOME 2. It works
